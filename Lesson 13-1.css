@@ -1,9 +1,21 @@
 .block{
-
+ margin: 50px;
 }
 
-.first{
+.first li:first-child{
+ text-decoration: line-through;
+}
 
+.first li:nth-child(2){
+  font-weight: 600;
+}
+
+.first li:nth-child(3){
+ font-style: italic;
+}
+
+.first li:last-child{
+ text-transform: uppercase;
 }
 
 .second{
@@ -15,5 +27,5 @@
 }
 
 .color{
-  
+
 }
