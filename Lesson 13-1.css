@@ -6,6 +6,10 @@
  text-decoration: line-through;
 }
 
+.first li{
+  list-style-type: none;
+}
+
 .first li:nth-child(2){
   font-weight: 600;
 }
@@ -18,14 +22,43 @@
  text-transform: uppercase;
 }
 
-.second{
-
+.first li::before{
+  content: '✓'
 }
 
-.full{
-
+.second li:nth-child(2):hover{
+ color: red;
 }
 
-.color{
+.second li{
+  list-style-type: none;
+}
 
+.second li::before{
+  content: '✓'
+}
+
+.Full{
+ border: 1px solid #000;
+ font-size: 15px;
+ width: 115px;
+ padding: 10px 10px 10px 40px;
+ border-radius: 50%;
+ background-color: #4fd;
+}
+
+.Full:hover{
+  background-color: #f4d;
+}
+
+.Full:checked{
+  background-color: #4df;
+}
+
+.color::first-line{
+ color: red;
+}
+
+.color2::first-letter{
+  color: red;
 }
