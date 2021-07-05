@@ -43,17 +43,14 @@
  font-size: 15px;
  width: 115px;
  padding: 10px 10px 10px 40px;
- border-radius: 50%;
+ border-radius: 30%;
  background-color: #4fd;
 }
 
 .Full:hover{
-  background-color: #f4d;
+  background-color: #44f;
 }
 
-.Full:checked{
-  background-color: #4df;
-}
 
 .color::first-line{
  color: red;
