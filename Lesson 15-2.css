@@ -111,12 +111,12 @@ html{
 
 .button:hover .button__text::before,
 .button:hover .button__text::after{
-  background-color: #18b5a4;
+  background-color: #46c0f4;
 }
 
 .button:active .button__text{
   box-shadow: 0 2px 0 0 #0c5b52;
-  top:-7;
+  top:-7px;
   transition: all 0.1s ease 0s;
 }
 
