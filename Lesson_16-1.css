@@ -1,0 +1,11 @@
+table{
+  border-spacing: 0px;
+}
+
+.small th{
+  width: 200px;
+  border-top: 5px solid #227dab;
+  border-bottom: 5px solid #227dab;
+  border-left: 5px solid #227dab;
+  border-right: 5px solid #227dab;
+}
