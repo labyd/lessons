@@ -1,3 +1,3 @@
 <script>
-  document.write("<h1>Hello world!</h1>");
+  document.write("<h1>Hellow world!</h1>");
 </script>
