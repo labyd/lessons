@@ -156,4 +156,4 @@ let name;
 console.log(name ?? "Без имени");
 
 let nameV2 = 'Фрилансер';
-console.log(name ?? "Без имени");
+console.log(nameV2 ?? "Без имени");
