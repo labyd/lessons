@@ -1,5 +1,5 @@
 .bg{
-  background-image: url(img/8ke.gif)
+  background-color: #0a0;
 }
 
 .fix{
@@ -10,6 +10,10 @@
   text-shadow: 5px 1px 3px #000;
 }
 
+.fix:hover{
+  color: #e4fe00;
+}
+
 .par{
   font-size: 23px;
   color: #f3d;
@@ -17,7 +21,19 @@
 }
 
 .mar{
-  color: #0a0;
+  color: #002137;
   font-size: 20px;
   padding-top: 10px;
+}
+
+.hr{
+  font-size: 20px;
+}
+
+.ah:hover{
+  color: #a7009f
+}
+
+.ah:hover::after{
+  content: ')';
 }
